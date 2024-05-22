@@ -8,7 +8,7 @@ def chart(df: DataFrame, x: str, y: str, target: str) -> Chart:
     '''
     Generates an altair Chart
 
-    Parameters
+    Parameters.
     ----------
     df: DataFrame
         data to be graphed
