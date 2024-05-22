@@ -10,7 +10,7 @@ from app.data import Database
 from app.graph import chart
 from app.machine import Machine
 
-SPRINT = 1
+SPRINT = 2
 APP = Flask(__name__)
 
 
@@ -40,7 +40,7 @@ def data():
 def view():
     if SPRINT < 2:
         return render_template("view.html")
-    db = Database("monsters")
+    db = Database()
     options = ["Level", "Health", "Energy", "Sanity", "Rarity"]
     x_axis = request.values.get("x_axis") or options[1]
     y_axis = request.values.get("y_axis") or options[2]
