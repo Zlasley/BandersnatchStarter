@@ -8,7 +8,7 @@ import datetime
 
 class Machine:
     '''Instantiates and fits a RandomForestClassifier to make predictions'''
-    def __init__(self, df):.
+    def __init__(self, df):..
         self.name = "Random Forest Classifier"
         target = df["Rarity"]
         features = df[["Level", "Health", "Energy", "Sanity"]]
