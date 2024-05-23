@@ -35,4 +35,4 @@ class Machine:
 
     def info(self):
         '''Returns the name of the model and the current datetime'''
-        return f"Base Model: {self.name} <br /> Timestamp: {datetime.datetime.now():%Y-%m-%d %l:%M:%S %p}"
+        return f"basemodel:{self.name} <br> timestamp:{datetime.datetime.now()}"
