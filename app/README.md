@@ -1,4 +1,4 @@
-First Ticket Screen Shot1
+First Ticket Screen Shot
 
 ![ticket 1](https://github.com/Zlasley/BandersnatchStarter/assets/116044492/5853c978-f95d-44b6-b370-38fea472bacf)
 
