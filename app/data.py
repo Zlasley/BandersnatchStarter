@@ -5,7 +5,7 @@ from MonsterLab import Monster
 from pandas import DataFrame
 from pymongo import MongoClient
 
-a
+aa
 class Database:
     """Class that holds a MongoDB database and collection of monster objects."""
 
