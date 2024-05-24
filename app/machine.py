@@ -6,7 +6,7 @@ import joblib
 import datetime
 
 
-class Machine:
+class Machines:
     '''Instantiates and fits a RandomForestClassifier to make predictions'''
     def __init__(self, df):
         self.name = "Random Forest Classifier"
